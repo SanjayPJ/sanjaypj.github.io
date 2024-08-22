@@ -12,15 +12,6 @@ paginate = 5
   [outputFormats.HTML]
     mediaType = "text/html"
 
-[outputs]
-  home = [ "HTML" ]
-  page = [ "HTML" ]
-  section = [ "HTML" ]
-  taxonomy = [ "HTML" ]
-  terms = [ "HTML" ]
-  RSS = [ "XML" ]  # RSS feeds will be in XML format
-  sitemap = [ "XML" ]  # Sitemap will be in XML format
-
 [markup]
   [markup.highlight]
     anchorLineNos = false
