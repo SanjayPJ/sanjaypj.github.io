@@ -23,3 +23,13 @@ paginate = 5
     noHl = false
     style = 'dracula'
     tabWidth = 4
+
+
+[outputs]
+  home = [ "HTML" ]
+  page = [ "HTML" ]
+  section = [ "HTML" ]
+  taxonomy = [ "HTML" ]
+  terms = [ "HTML" ]
+  RSS = [ "XML" ]  # Optional: Remove this if you don't want RSS
+  sitemap = [ "XML" ]  # Optional: Remove this if you don't want a sitemap
