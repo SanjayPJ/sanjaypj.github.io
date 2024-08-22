@@ -19,11 +19,10 @@ jobs:
           hugo-version: "0.110.0"
 
       - name: Build the Hugo site
-        run: hugo --minify
+        run: hugo
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          force: true
