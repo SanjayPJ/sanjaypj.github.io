@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sanjay PJ</title>
-    <link>http://localhost:8000/categories/</link>
+    <link>https://sanjaypj.github.io/categories/</link>
     <description>Recent content in Categories on Sanjay PJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Sat, 27 Aug 2022 09:16:45 +0000</lastBuildDate><atom:link href="http://localhost:8000/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Aug 2022 09:16:45 +0000</lastBuildDate><atom:link href="https://sanjaypj.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello</title>
-      <link>http://localhost:8000/categories/hello/</link>
+      <link>https://sanjaypj.github.io/categories/hello/</link>
       <pubDate>Sat, 27 Aug 2022 09:16:45 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/hello/</guid>
+      <guid>https://sanjaypj.github.io/categories/hello/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS</title>
-      <link>http://localhost:8000/categories/css/</link>
+      <link>https://sanjaypj.github.io/categories/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/css/</guid>
+      <guid>https://sanjaypj.github.io/categories/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavaScript</title>
-      <link>http://localhost:8000/categories/javascript/</link>
+      <link>https://sanjaypj.github.io/categories/javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/javascript/</guid>
+      <guid>https://sanjaypj.github.io/categories/javascript/</guid>
       <description>Description</description>
     </item>
     
     <item>
       <title>Uncategories</title>
-      <link>http://localhost:8000/categories/uncategories/</link>
+      <link>https://sanjaypj.github.io/categories/uncategories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8000/categories/uncategories/</guid>
+      <guid>https://sanjaypj.github.io/categories/uncategories/</guid>
       <description>Description</description>
     </item>
     

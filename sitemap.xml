@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:8000/</loc>
+    <loc>https://sanjaypj.github.io/</loc>
     <lastmod>2022-08-27T09:16:45+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8000/categories/</loc>
+    <loc>https://sanjaypj.github.io/categories/</loc>
     <lastmod>2022-08-27T09:16:45+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8000/tags/hello/</loc>
+    <loc>https://sanjaypj.github.io/tags/hello/</loc>
     <lastmod>2022-08-27T09:16:45+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8000/categories/hello/</loc>
+    <loc>https://sanjaypj.github.io/categories/hello/</loc>
     <lastmod>2022-08-27T09:16:45+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8000/posts/markdown-cheat-sheet/</loc>
+    <loc>https://sanjaypj.github.io/posts/markdown-cheat-sheet/</loc>
     <lastmod>2022-08-27T09:16:45+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8000/posts/</loc>
+    <loc>https://sanjaypj.github.io/posts/</loc>
     <lastmod>2022-08-27T09:16:45+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8000/tags/</loc>
+    <loc>https://sanjaypj.github.io/tags/</loc>
     <lastmod>2022-08-27T09:16:45+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8000/tags/whatsapp/</loc>
+    <loc>https://sanjaypj.github.io/tags/whatsapp/</loc>
     <lastmod>2022-08-27T09:16:45+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8000/categories/css/</loc>
+    <loc>https://sanjaypj.github.io/categories/css/</loc>
   </url><url>
-    <loc>http://localhost:8000/categories/javascript/</loc>
+    <loc>https://sanjaypj.github.io/categories/javascript/</loc>
   </url><url>
-    <loc>http://localhost:8000/categories/uncategories/</loc>
+    <loc>https://sanjaypj.github.io/categories/uncategories/</loc>
   </url>
 </urlset>
