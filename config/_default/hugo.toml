@@ -1,5 +1,5 @@
 baseURL = 'https://sanjaypj.github.io/'
-copyright = "{year}"
+copyright = "{year}" # To make 2007 - 2022. Just add before {year} example: 2007 - {year}
 languageCode = 'en-US'
 defaultContentLanguage = 'en'
 theme = 'enchanted-lowkey'
@@ -24,13 +24,5 @@ paginate = 5
     style = 'dracula'
     tabWidth = 4
 
-[outputs]
-  home = [ "HTML" ]
-  page = [ "HTML" ]
-  section = [ "HTML" ]
-  taxonomy = [ "HTML" ]  # Updated to HTML, remove XML if not supported
-  terms = [ "HTML" ]  # Updated to HTML, remove XML if not supported
-
-[outputFormats]
-  [outputFormats.HTML]
-    mediaType = "text/html"
+outputs:
+  - html
