@@ -1,1 +1,15 @@
 User-agent: *
+
+Disallow: /
+
+Disallow: /categories/
+
+Disallow: /categories/css/
+
+Disallow: /categories/javascript/
+
+Disallow: /posts/
+
+Disallow: /tags/
+
+Disallow: /categories/uncategories/
