@@ -19,7 +19,7 @@ jobs:
           hugo-version: "0.110.0"
 
       - name: Build the Hugo site
-        run: hugo --minify
+        run: hugo --loglevel=debug
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
