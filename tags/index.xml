@@ -2,29 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sanjay PJ</title>
-    <link>https://sanjaypj.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Sanjay PJ</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Sat, 27 Aug 2022 09:16:45 +0000</lastBuildDate><atom:link href="https://sanjaypj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Aug 2022 09:16:45 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello</title>
-      <link>https://sanjaypj.github.io/tags/hello/</link>
+      <link>http://localhost:1313/tags/hello/</link>
       <pubDate>Sat, 27 Aug 2022 09:16:45 +0000</pubDate>
-      
-      <guid>https://sanjaypj.github.io/tags/hello/</guid>
+      <guid>http://localhost:1313/tags/hello/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>WhatsApp</title>
-      <link>https://sanjaypj.github.io/tags/whatsapp/</link>
+      <link>http://localhost:1313/tags/whatsapp/</link>
       <pubDate>Sat, 27 Aug 2022 09:16:45 +0000</pubDate>
-      
-      <guid>https://sanjaypj.github.io/tags/whatsapp/</guid>
+      <guid>http://localhost:1313/tags/whatsapp/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
