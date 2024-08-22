@@ -8,10 +8,6 @@ enableRobotsTXT = true
 summaryLength = 15
 paginate = 5
 
-[outputFormats]
-  [outputFormats.HTML]
-    mediaType = "text/html"
-
 [markup]
   [markup.highlight]
     anchorLineNos = false
