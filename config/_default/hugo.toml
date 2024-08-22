@@ -30,3 +30,6 @@ paginate = 5
 [outputFormats]
   [outputFormats.html]
     mediaType = 'text/html'
+
+[outputs]
+  home = ['html']
