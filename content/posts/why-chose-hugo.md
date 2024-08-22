@@ -4,10 +4,9 @@ draft: false
 date: 2024-08-22T09:16:45.000Z
 description: "My decision-making process behind choosing Hugo as my blogging platform. I compare Hugo with other popular options such as raw HTML, WordPress, Next.js + Markdown, Jekyll, and Gatsby."
 categories:
-  - Hello
+  - Tech
 tags:
-  - Hello
-  - WhatsApp
+  - Hugo
 ---
 
 When it comes to setting up a blog, there are countless options available, each with its own set of advantages and trade-offs. After exploring various platforms and technologies, I decided to go with Hugo for my blogging needs. Here’s a breakdown of why I chose Hugo over other popular options like raw HTML, WordPress, Next.js + Markdown, Jekyll, and Gatsby.
