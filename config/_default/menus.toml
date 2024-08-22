@@ -1,0 +1,38 @@
+[[main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 2
+
+[[main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories"
+    weight = 3
+
+[[main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags"
+    weight = 4
+
+    
+# Social Media Configuration
+
+[[social]]
+    identifier = "twitter"
+    name = "Twitter / X"
+    url = "https://x.com/iamsanjaypj"
+    weight = 1
+
+[[social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/ghnew"
+    weight = 3
