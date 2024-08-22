@@ -24,5 +24,9 @@ paginate = 5
     style = 'dracula'
     tabWidth = 4
 
-[minify]
-  disableHTML = false
+[mediaTypes]
+  [mediaTypes.'text/html']
+    suffixes = ['htm']
+[outputFormats]
+  [outputFormats.html]
+    mediaType = 'text/html'
