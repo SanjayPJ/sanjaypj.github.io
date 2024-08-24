@@ -1342,6 +1342,16 @@ nav a.active:is(.dark *) {
     text-align: left;
   }
 }
+#description {
+  display: block;
+  text-align: center;
+}
+@media (min-width: 640px) {
+
+  #description {
+    text-align: left;
+  }
+}
 .header {
   display: flex;
   flex-direction: row;
