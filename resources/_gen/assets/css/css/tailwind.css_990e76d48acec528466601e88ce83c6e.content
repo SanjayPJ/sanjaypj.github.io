@@ -743,8 +743,8 @@ video {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.75rem;
-  font-size: 0.75rem;
-  line-height: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   font-weight: 600;
   text-transform: uppercase;
 }
