@@ -1,70 +1,86 @@
 ---
-title: "Why I Chose Hugo for Blogging: A Personal Perspective"
+title: "The Hugo Manifesto: A Simple Approach to Blogging"
 draft: false
 date: 2024-08-22T09:16:45.000Z
-description: "My decision-making process behind choosing Hugo as my blogging platform. I compare Hugo with other popular options such as raw HTML, WordPress, Next.js + Markdown, Jekyll, and Gatsby."
+description: "A simple blog built with Hugo, offering a clean, fast, and distraction-free experience. Explore topics ranging from Tech, Business and Life, all powered by the simplicity of Markdown and the efficiency of Hugo."
 categories:
   - Tech
 tags:
   - Hugo
 ---
 
-When it comes to setting up a blog, there are countless options available, each with its own set of advantages and trade-offs. After exploring various platforms and technologies, I decided to go with Hugo for my blogging needs. Here’s a breakdown of why I chose Hugo over other popular options like raw HTML, WordPress, Next.js + Markdown, Jekyll, and Gatsby.
+I use Hugo for my blog, I think the inspiration is https://nithinkamath.me/.
 
-## 1. **Simplicity and Speed**
+This is the reasoning behind choosing hugo.
 
-### Raw HTML
+My first choice was always do something with nextjs+markdown or gastby or any other flashy javascript framework. then i thought about the time I have to develop the systems or finding a perfect fork or plugins. so NOOOO...
 
-While raw HTML provides ultimate control over the structure and design of your blog, it comes with a steep learning curve and maintenance overhead. Creating and managing each page individually is cumbersome and time-consuming, especially when you have a growing number of posts.
+Hugo, Its fast. Not using javascript and 100 million dependencies a good thing, It uses Go, and it seems to be fast.
 
-### Hugo
+Customization. I tried customizing it, and its pretty simple.
 
-Hugo, on the other hand, offers a simple setup with a powerful static site generator that automates much of the work. With Hugo, you can focus on writing content without worrying about the underlying HTML structure. The build process is incredibly fast, allowing you to generate your site in seconds even as it grows.
+Simple, I dont need a lot of functionality for the first time, and need to know where its going. so bare minimum functionalities are enough.
 
-## 2. **Ease of Use and Flexibility**
+It is JAMStack.
 
-### WordPress
+And I love writing Markdown.
 
-WordPress is a robust and widely-used CMS with a vast ecosystem of plugins and themes. However, it can be overkill for simple blogging needs. Managing a WordPress site often involves dealing with frequent updates, security patches, and potentially slow performance due to its dynamic nature.
+so lets start
 
-### Hugo
+## Step 1: Install Hugo
 
-Hugo simplifies content management with its straightforward directory structure and templating system. You can create posts using Markdown, which is easy to learn and write. The flexibility of Hugo’s templating allows you to customize the look and feel of your site without diving into complex PHP code.
+```
+choco install hugo-extended
+```
 
-## 3. **Performance and Scalability**
+## Step 2: Create a New Hugo Project
 
-### Next.js + Markdown
+Once Hugo is installed, we can create a new project for our blog:
 
-Next.js is a powerful React framework that offers server-side rendering and static site generation. While it excels in dynamic content and interactivity, setting it up for a simple blog might be overcomplicated. It also requires more infrastructure and resources compared to a static site generator like Hugo.
+Open Terminal: Launch your terminal or command prompt.
 
-### Hugo
+Navigate: Use the cd command to navigate to the directory where you want to create the project.
 
-Hugo’s static site generation is highly optimized for performance. Since Hugo generates static HTML files, your site loads quickly and scales effortlessly. This approach also eliminates concerns about server-side processing and makes deployment straightforward.
+Create Project: Execute the following command, replacing myblog with your desired project name:
 
-## 4. **Community and Ecosystem**
+```
+hugo new site myblog
+```
 
-### Jekyll
+## Step 3: Choose a Theme
 
-Jekyll is a popular static site generator and has a supportive community. However, its dependency on Ruby and the Jekyll ecosystem might be less familiar to those who are not well-versed in Ruby-based tools.
+Hugo offers a vast collection of themes that can be used to customize the appearance of your blog. To select a theme:
 
-### Hugo
+Browse Themes: Explore the available themes on platforms like Themes.gohugo.io.
 
-Hugo has an active and growing community, and its ecosystem is built around Go, which many find easier to work with compared to Ruby. Hugo’s comprehensive documentation and a wide range of themes and plugins make it easy to get started and find support.
+Download Theme: Choose a theme you like and download its ZIP file.
 
-## 5. **Markdown and Content Management**
+Extract Theme: Extract the downloaded theme to the themes directory within your project.
 
-### Gatsby
+also check the instructions in the theme to set up the blog properly.
 
-Gatsby is another static site generator that pairs well with React and GraphQL. While it offers powerful features and integrations, it can be complex to set up and might be overkill for a simple blog. Gatsby’s build times and the need for JavaScript-heavy features can also impact performance if not managed carefully.
+## Step 4: Create Content
 
-### Hugo
+Now that you have a basic structure in place, it's time to create content for your blog. Hugo uses Markdown files to store content. To create a new post:
 
-Hugo’s integration with Markdown makes content management seamless and efficient. Writing in Markdown is straightforward and helps maintain a clean separation between content and presentation. Hugo’s powerful front matter and taxonomies offer advanced content management features without adding unnecessary complexity.
+Create Post: Use the following command:
 
-## Conclusion
+```
+hugo new posts/my-first-post.md
+```
 
-In summary, Hugo stands out as an excellent choice for blogging due to its simplicity, speed, ease of use, and performance. It strikes the right balance between functionality and ease of setup, making it ideal for bloggers who want to focus on content creation without getting bogged down by technical details.
+Write Content: Open the newly created my-first-post.md file and write your blog post content using Markdown syntax.
 
-While other platforms and technologies have their strengths, Hugo’s combination of fast build times, flexible templating, and Markdown support made it the best fit for my blogging needs. If you’re considering setting up your own blog, Hugo is definitely worth exploring.
+### Step 5: Serve Your Blog Locally
 
-Happy blogging!
+Start Server: Execute the following command:
+
+```
+hugo server
+```
+
+Access Blog: Open your web browser and visit http://localhost:1313/ to view your blog.
+
+Simple right?
+
+Happy blogging ;)
