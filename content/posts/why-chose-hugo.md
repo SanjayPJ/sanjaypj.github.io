@@ -71,7 +71,7 @@ hugo new posts/my-first-post.md
 
 Write Content: Open the newly created my-first-post.md file and write your blog post content using Markdown syntax.
 
-### Step 5: Serve Your Blog Locally
+## Step 5: Serve Your Blog Locally
 
 Start Server: Execute the following command:
 
