@@ -14,4 +14,6 @@ Disallow: /tags/
 
 Disallow: /categories/tech/
 
+Disallow: /posts/why-shuttappi/
+
 Disallow: /categories/uncategories/
