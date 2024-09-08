@@ -175,7 +175,7 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
 
 **Install Apache Benchmark**:
 
-   - Apache Benchmark is often included with Apache HTTP Server. Install it if you haven’t already.
+Apache Benchmark is often included with Apache HTTP Server. Install it if you haven’t already.
 
 **Run Load Test**:
 
