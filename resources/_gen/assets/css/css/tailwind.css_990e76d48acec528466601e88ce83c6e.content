@@ -1422,6 +1422,13 @@ nav a.active:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
+
+@media (max-width: 576px) {
+  body {
+    zoom: 0.9;
+  }
+}
+
 @media (min-width: 640px) {
 
   .sm\:order-1 {

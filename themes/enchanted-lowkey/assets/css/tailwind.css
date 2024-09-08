@@ -386,3 +386,9 @@
     @apply text-2xl font-extrabold text-gray-900 dark:text-gray-300;
   }
 }
+
+@media (max-width: 576px) {
+  body {
+    zoom: 0.9;
+  }
+}
