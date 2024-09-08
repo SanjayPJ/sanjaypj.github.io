@@ -33,7 +33,7 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
    ```
 
 **Verify Metrics Server**:
-   - Check if the metrics server is collecting data:
+   Check if the metrics server is collecting data:
    ```bash
    kubectl top node
    kubectl top pod -A
@@ -190,7 +190,5 @@ Apache Benchmark is often included with Apache HTTP Server. Install it if you ha
 Congratulations! You've successfully set up Horizontal Pod Autoscaler for a Node.js application on Kubernetes. By monitoring the autoscaling behavior, you can ensure that your application remains responsive under varying loads, leveraging Kubernetes' powerful scaling capabilities.
 
 Happy Scaling!
-
----
 
 Feel free to adjust any specific details according to your setup or preferences.
