@@ -189,7 +189,7 @@ Apache Benchmark is often included with Apache HTTP Server. Install it if you ha
 
 Congratulations! You've successfully set up Horizontal Pod Autoscaler for a Node.js application on Kubernetes. By monitoring the autoscaling behavior, you can ensure that your application remains responsive under varying loads, leveraging Kubernetes' powerful scaling capabilities.
 
-Happy Scaling! 🚀
+Happy Scaling!
 
 ---
 
