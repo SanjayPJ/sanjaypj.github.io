@@ -6,7 +6,7 @@ description: "This covers setting up Horizontal Pod Autoscaling (HPA) in Kuberne
 categories:
   - Tech
 tags:
-  - Hugo
+  - Kubernetes
 ---
 
 Kubernetes, the powerful orchestration platform for containerized applications, offers numerous features to ensure that your applications are running efficiently and scaling as needed. One of the most impactful features is Horizontal Pod Autoscaling (HPA). In this blog, we'll walk through setting up HPA for a simple Node.js application on a Kubernetes cluster running on Docker Desktop for Windows. We'll cover everything from setting up your environment to deploying a scalable application and testing its autoscaling behavior.

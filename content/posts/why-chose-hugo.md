@@ -29,7 +29,7 @@ so lets start
 
 ## Step 1: Install Hugo
 
-```
+```bash
 choco install hugo-extended
 ```
 
@@ -43,7 +43,7 @@ Navigate: Use the cd command to navigate to the directory where you want to crea
 
 Create Project: Execute the following command, replacing myblog with your desired project name:
 
-```
+```bash
 hugo new site myblog
 ```
 
@@ -65,7 +65,7 @@ Now that you have a basic structure in place, it's time to create content for yo
 
 Create Post: Use the following command:
 
-```
+```bash
 hugo new posts/my-first-post.md
 ```
 
@@ -75,7 +75,7 @@ Write Content: Open the newly created my-first-post.md file and write your blog 
 
 Start Server: Execute the following command:
 
-```
+```bash
 hugo server
 ```
 
