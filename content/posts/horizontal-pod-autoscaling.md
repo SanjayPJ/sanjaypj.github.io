@@ -13,26 +13,26 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
 
 ## Prerequisites
 
-1. **Docker Desktop for Windows**: Ensure Docker Desktop is installed and Kubernetes is enabled.
-2. **Metrics Server**: Required for HPA to work. It collects resource usage data.
-3. **Apache Benchmark**: For load testing.
+- **Docker Desktop for Windows**: Ensure Docker Desktop is installed and Kubernetes is enabled.
+- **Metrics Server**: Required for HPA to work. It collects resource usage data.
+- **Apache Benchmark**: For load testing.
 
 ## Setting Up Metrics Server
 
-1. **Download and Edit `components.yaml`**:
+**Download and Edit `components.yaml`**:
 
    - Get the latest `components.yaml` from the [Metrics Server releases page](https://github.com/kubernetes-sigs/metrics-server/releases).
    - Open `components.yaml` in your text editor.
    - Add `--kubelet-insecure-tls` under the `args` section to bypass TLS verification.
    - Save the file.
 
-2. **Apply the Configuration**:
+**Apply the Configuration**:
 
    ```bash
    kubectl apply -f components.yaml
    ```
 
-3. **Verify Metrics Server**:
+**Verify Metrics Server**:
    - Check if the metrics server is collecting data:
    ```bash
    kubectl top node
@@ -41,7 +41,7 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
 
 ## Creating and Deploying a Dockerized Node.js Application
 
-1. **Write a Dockerfile**:
+**Write a Dockerfile**:
    Create a `Dockerfile` in the root directory of your Node.js application:
 
    ```Dockerfile
@@ -65,13 +65,13 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
    CMD [ "node", "index.js" ]
    ```
 
-2. **Build the Docker Image**:
+**Build the Docker Image**:
 
    ```bash
    docker build -t test/node-example .
    ```
 
-3. **Push the Image to Docker Hub**:
+**Push the Image to Docker Hub**:
    ```bash
    docker tag test/node-example your-dockerhub-username/node-example
    docker push your-dockerhub-username/node-example
@@ -79,7 +79,7 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
 
 ## Kubernetes Configuration Files
 
-1. **Deployment Configuration (`k8s/deployment.yml`)**:
+**Deployment Configuration (`k8s/deployment.yml`)**:
 
    ```yaml
    apiVersion: apps/v1
@@ -109,7 +109,7 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
                  cpu: "0.25"
    ```
 
-2. **Service Configuration (`k8s/service.yml`)**:
+**Service Configuration (`k8s/service.yml`)**:
 
    ```yaml
    apiVersion: v1
@@ -128,7 +128,7 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
      type: LoadBalancer
    ```
 
-3. **Horizontal Pod Autoscaler Configuration (`k8s/hpa.yml`)**:
+**Horizontal Pod Autoscaler Configuration (`k8s/hpa.yml`)**:
 
    ```yaml
    apiVersion: autoscaling/v1
@@ -145,14 +145,14 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
      targetCPUUtilizationPercentage: 50
    ```
 
-4. **Apply Configurations**:
+**Apply Configurations**:
    ```bash
    kubectl apply -f k8s
    ```
 
 ## Monitoring Autoscaling
 
-1. **Terminal 1 - Monitor Deployments**:
+**Terminal 1 - Monitor Deployments**:
 
    ```powershell
    while ($true) {
@@ -162,7 +162,7 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
    }
    ```
 
-2. **Terminal 2 - Monitor HPA**:
+**Terminal 2 - Monitor HPA**:
    ```powershell
    while ($true) {
        cls
@@ -173,11 +173,11 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
 
 ## Testing Autoscaling
 
-1. **Install Apache Benchmark**:
+**Install Apache Benchmark**:
 
    - Apache Benchmark is often included with Apache HTTP Server. Install it if you haven’t already.
 
-2. **Run Load Test**:
+**Run Load Test**:
 
    ```bash
    ab -c 5 -n 1000 -t 100000 http://127.0.0.1:3000/
