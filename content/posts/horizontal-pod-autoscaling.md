@@ -1,5 +1,5 @@
 ---
-title: "Horizontal Pod Autoscaling with Kubernetes: A Hands-On Guide"
+title: "Horizontal Pod Autoscaling with Kubernetes"
 draft: false
 date: 2024-09-08T09:16:45.000Z
 description: "This covers setting up Horizontal Pod Autoscaling (HPA) in Kubernetes, including configuring the Metrics Server, dockerizing a Node.js app, and deploying it with HPA. Learn to create Kubernetes configurations and monitor autoscaling with Apache Benchmark to ensure efficient scaling of your application."
