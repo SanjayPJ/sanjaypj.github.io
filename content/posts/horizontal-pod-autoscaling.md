@@ -33,7 +33,8 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
    ```
 
 **Verify Metrics Server**:
-   Check if the metrics server is collecting data:
+   
+- Check if the metrics server is collecting data:
    ```bash
    kubectl top node
    kubectl top pod -A
