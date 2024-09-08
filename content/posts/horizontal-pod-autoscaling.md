@@ -21,7 +21,7 @@ Kubernetes, the powerful orchestration platform for containerized applications, 
 
 **Download and Edit `components.yaml`**:
 
-   - Get the latest `components.yaml` from the [Metrics Server releases page](https://github.com/kubernetes-sigs/metrics-server/releases).
+   - Get the latest `components.yaml` from the [metrics server releases page](https://github.com/kubernetes-sigs/metrics-server/releases).
    - Open `components.yaml` in your text editor.
    - Add `--kubelet-insecure-tls` under the `args` section to bypass TLS verification.
    - Save the file.
