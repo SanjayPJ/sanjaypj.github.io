@@ -1009,6 +1009,9 @@ video {
 .rounded-full {
   border-radius: 9999px;
 }
+.border {
+  border-width: 1px;
+}
 .stroke-2 {
   stroke-width: 2;
 }
@@ -1118,6 +1121,10 @@ nav a.active:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }
+#content h1 > a {
+
+    line-height: 2.3rem;
+  }
 #content .meta {
   margin-top: 0.5rem;
   display: flex;
@@ -1440,6 +1447,10 @@ nav a.active:is(.dark *) {
   body {
     zoom: 0.9;
   }
+}
+
+img {
+  border-radius: 15px;
 }
 
 @media (min-width: 640px) {

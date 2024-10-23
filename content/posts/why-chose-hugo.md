@@ -9,23 +9,21 @@ tags:
   - Hugo
 ---
 
-I use Hugo for my blog, I think the inspiration is https://nithinkamath.me/.
+So, I’ve decided to use Hugo for my blog, and honestly, I think I got a bit inspired by Nithin Kamath’s site.
 
-This is the reasoning behind choosing hugo.
+At first, I was all set on diving into something flashy with Next.js, Gatsby, or one of those other snazzy JavaScript frameworks. But then reality hit me. I thought, “Do I really want to spend forever developing systems or searching for the perfect plugins?” And my answer was a resounding NOPE!
 
-My first choice was always do something with nextjs+markdown or gastby or any other flashy javascript framework. then i thought about the time I have to develop the systems or finding a perfect fork or plugins. so NOOOO...
+Enter Hugo. This thing is like a speed demon! No JavaScript, no endless dependencies—just pure, fast goodness. Plus, it runs on Go, which makes it feel like I’m doing something smart for once.
 
-Hugo, Its fast. Not using javascript and 100 million dependencies a good thing, It uses Go, and it seems to be fast.
+Customization? Oh, it’s a breeze! I gave it a shot, and I was pleasantly surprised at how easy it is to tweak things to my liking.
 
-Customization. I tried customizing it, and its pretty simple.
+I’m keeping it simple for my first foray into blogging. I don’t need a million features right off the bat; just the basics to get me started. Less is more, right?
 
-Simple, I dont need a lot of functionality for the first time, and need to know where its going. so bare minimum functionalities are enough.
+And let’s not forget—it’s all JAMstack, baby!
 
-It is JAMStack.
+Oh, and did I mention I love writing in Markdown? It feels like a cozy little secret language for writers.
 
-And I love writing Markdown.
-
-so lets start
+So, let’s get this party started!
 
 ## Step 1: Install Hugo
 

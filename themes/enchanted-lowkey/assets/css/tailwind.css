@@ -318,6 +318,8 @@
 
   #content h1 > a {
     @apply no-underline text-2xl font-bold hover:underline text-gray-900 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100;
+
+    line-height: 2.3rem;
   }
 
   #content .meta {
@@ -450,4 +452,8 @@
   body {
     zoom: 0.9;
   }
+}
+
+img {
+  border-radius: 15px;
 }

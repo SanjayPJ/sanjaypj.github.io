@@ -24,6 +24,11 @@
 
   {{ partial "single/table-of-contents" . }}
 
+  <div style="border: 1px solid #ebebeb; padding: 20px; border-radius: 15px">
+    <h4 class="serif">>> Table of Contents</h4>
+    <div style="font-size: 12px">{{ .TableOfContents }}</div>
+  </div>
+
   <section class="serif">{{ .Content | emojify }}</section>
 
   {{ partial "single/comments/index" . }}
