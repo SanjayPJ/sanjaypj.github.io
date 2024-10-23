@@ -5,8 +5,11 @@ date: 2024-10-12T09:16:45.000Z
 description: "Dive into The Legend of Zelda: The Minish Cap as we explore its enchanting mechanics, from shrinking to Kinstone Fusion. Discover clever puzzles, dynamic combat, and hidden treasures in Hyrule that make this game a beloved classic!"
 categories:
   - Gaming
+  - Reviews
 tags:
   - Zelda
+  - Minish Cap
+  - Game Mechanics
 ---
 
 ## A Link to The Past

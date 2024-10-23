@@ -4,9 +4,12 @@ draft: false
 date: 2024-08-22T09:16:45.000Z
 description: "A simple blog built with Hugo, offering a clean, fast, and distraction-free experience. Explore topics ranging from Tech, Business and Life, all powered by the simplicity of Markdown and the efficiency of Hugo."
 categories:
+  - Blogging
   - Tech
 tags:
   - Hugo
+  - Markdown
+  - JAMstack
 ---
 
 So, I’ve decided to use Hugo for my blog, and honestly, I think I got a bit inspired by Nithin Kamath’s site.
