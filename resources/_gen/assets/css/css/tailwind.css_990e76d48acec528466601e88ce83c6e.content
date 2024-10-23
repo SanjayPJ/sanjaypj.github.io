@@ -493,11 +493,13 @@ video {
         url("../fonts/inter-v12-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
+  .serif {
+    font-family: "Libre Baskerville", serif;
+  }
+
   body {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  font-size: 1.125rem;
-  line-height: 1.75rem;
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
@@ -509,82 +511,94 @@ video {
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
+  body {
+
+    /* text-align: justify; */
+  }
+
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-  margin-bottom: 1.25rem;
-  padding-top: 0.5rem;
-  font-weight: 700;
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
-}
+    margin-bottom: 20px; /* Slightly smaller space below headings */
+  }
 
-  h1:is(.dark *),
-  h2:is(.dark *),
-  h3:is(.dark *),
-  h4:is(.dark *),
-  h5:is(.dark *),
-  h6:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
-}
+  /* H1 - Main heading (usually the post title) */
+  h1 {
+    font-size: 30px; /* Much smaller for a subtle look */
+    line-height: 40px; /* 1.33 line height for better readability */
+    font-weight: 700; /* Bolder for main heading */
+  }
+
+  /* H2 - Section headings */
+  h2 {
+    font-size: 24px; /* Smaller, secondary heading */
+    line-height: 34px; /* 1.42 line height */
+    font-weight: 600;
+  }
+
+  /* H3 - Subsection headings */
+  h3 {
+    font-size: 20px; /* Compact heading size */
+    line-height: 30px; /* 1.5 line height */
+    font-weight: 600;
+  }
+
+  /* H4 - Minor subsection headings */
+  h4 {
+    font-size: 18px;
+    line-height: 28px; /* 1.55 line height */
+    font-weight: 500; /* Lighter for less prominent sections */
+  }
+
+  /* H5 - Small subheadings */
+  h5 {
+    font-size: 16px;
+    line-height: 26px; /* 1.63 line height */
+    font-weight: 500;
+  }
+
+  /* H6 - Very small headings */
+  h6 {
+    font-size: 14px;
+    line-height: 24px; /* 1.71 line height */
+    font-weight: 500;
+  }
+
+  /* h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold text-gray-900 dark:text-gray-300 mb-5 pt-2;
+  }
 
   h1 {
-  font-size: 1.875rem;
-  line-height: 2.5rem;
-}
-
-  @media (min-width: 640px) {
-
-  h1 {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    @apply text-3xl sm:text-4xl leading-10;
   }
-}
 
   h2 {
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-}
-
-  @media (min-width: 640px) {
-
-  h2 {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    @apply text-2xl sm:text-3xl leading-10;
   }
-}
 
   h3 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-  @media (min-width: 640px) {
-
-  h3 {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    @apply text-xl sm:text-2xl;
   }
-}
 
   h4 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
+    @apply text-xl;
+  }
 
   h5 {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
+    @apply text-lg;
+  }
 
   h6 {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
+    @apply text-base;
+  } */
 
   hr {
   --tw-border-opacity: 1;
@@ -948,7 +962,7 @@ video {
   width: 1rem;
 }
 .max-w-screen-md {
-  max-width: 768px;
+  max-width: 680px;
 }
 .flex-none {
   flex: none;
@@ -1053,7 +1067,8 @@ nav a.active:is(.dark *) {
 }
 /* Content overrides */
 #content {
-  line-height: 1.5;
+
+    line-height: 2;
 }
 #content a {
   font-weight: 700;
@@ -1083,8 +1098,8 @@ nav a.active:is(.dark *) {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 #content h1 > a {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
@@ -1393,8 +1408,7 @@ nav a.active:is(.dark *) {
   width: 1.5rem;
 }
 .title-large {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.375;
   --tw-text-opacity: 1;
@@ -1407,8 +1421,7 @@ nav a.active:is(.dark *) {
 @media (min-width: 640px) {
 
   .title-large {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 37px;
   }
 }
 .title-small {

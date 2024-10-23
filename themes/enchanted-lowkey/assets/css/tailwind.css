@@ -103,11 +103,68 @@
         url("../fonts/inter-v12-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
+  .serif {
+    font-family: "Libre Baskerville", serif;
+  }
+
   body {
-    @apply bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 text-lg;
+    @apply bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300;
+
+    /* text-align: justify; */
   }
 
   h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 20px; /* Slightly smaller space below headings */
+  }
+
+  /* H1 - Main heading (usually the post title) */
+  h1 {
+    font-size: 30px; /* Much smaller for a subtle look */
+    line-height: 40px; /* 1.33 line height for better readability */
+    font-weight: 700; /* Bolder for main heading */
+  }
+
+  /* H2 - Section headings */
+  h2 {
+    font-size: 24px; /* Smaller, secondary heading */
+    line-height: 34px; /* 1.42 line height */
+    font-weight: 600;
+  }
+
+  /* H3 - Subsection headings */
+  h3 {
+    font-size: 20px; /* Compact heading size */
+    line-height: 30px; /* 1.5 line height */
+    font-weight: 600;
+  }
+
+  /* H4 - Minor subsection headings */
+  h4 {
+    font-size: 18px;
+    line-height: 28px; /* 1.55 line height */
+    font-weight: 500; /* Lighter for less prominent sections */
+  }
+
+  /* H5 - Small subheadings */
+  h5 {
+    font-size: 16px;
+    line-height: 26px; /* 1.63 line height */
+    font-weight: 500;
+  }
+
+  /* H6 - Very small headings */
+  h6 {
+    font-size: 14px;
+    line-height: 24px; /* 1.71 line height */
+    font-weight: 500;
+  }
+
+  /* h1,
   h2,
   h3,
   h4,
@@ -138,7 +195,7 @@
 
   h6 {
     @apply text-base;
-  }
+  } */
 
   hr {
     @apply border-gray-200 dark:border-gray-700;
@@ -247,6 +304,8 @@
   /* Content overrides */
   #content {
     @apply leading-normal;
+
+    line-height: 2;
   }
 
   #content a {
@@ -258,7 +317,7 @@
   }
 
   #content h1 > a {
-    @apply no-underline text-xl font-bold hover:underline text-gray-900 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100;
+    @apply no-underline text-2xl font-bold hover:underline text-gray-900 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100;
   }
 
   #content .meta {
@@ -379,7 +438,7 @@
   }
 
   .title-large {
-    @apply text-3xl sm:text-4xl leading-snug font-bold text-gray-900 dark:text-gray-300;
+    @apply text-[30px] sm:text-[37px] leading-snug font-bold text-gray-900 dark:text-gray-300;
   }
 
   .title-small {
