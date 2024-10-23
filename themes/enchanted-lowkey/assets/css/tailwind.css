@@ -448,3 +448,8 @@
 img {
   border-radius: 15px;
 }
+
+#toc ul {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}

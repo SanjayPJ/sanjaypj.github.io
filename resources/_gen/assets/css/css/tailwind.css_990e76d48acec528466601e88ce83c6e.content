@@ -1455,6 +1455,11 @@ img {
   border-radius: 15px;
 }
 
+#toc ul {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
 @media (min-width: 640px) {
 
   .sm\:order-1 {
