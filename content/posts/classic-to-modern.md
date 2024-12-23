@@ -74,14 +74,6 @@ Now, if you’ve been paying attention, you’ve probably noticed one thing: tod
 
 - **CNC Machines and 3D Printing**: CNC machining allows for parts to be made with incredible accuracy. Think of it like 3D printing, but with metal. These processes ensure that engine components fit together seamlessly, leading to smoother rides and longer-lasting engines.
 
-## Modern Manufacturing Techniques: Innovation at Every Turn
-
-Here’s the fun part—modern motorcycle manufacturing has embraced some seriously cool techniques that make bikes lighter, stronger, and more efficient:
-
-- **Casting**: It’s still around for a reason. Casting is used to create durable parts like engine blocks, where molten metal is poured into molds. It’s perfect for parts that need to stand the test of time.
-- **Forging**: For high-stress parts like crankshafts, **forging** is the way to go. High pressure shapes the metal into a dense, strong part that can take a beating.
-- **Welding**: Welding still holds a special place in bike manufacturing. Whether it’s a classic hand-welded frame or a high-tech robotic welding setup, it’s the heart of bike construction.
-
 ## Who Does It Best?
 
 So, with all these different manufacturing techniques, who’s got the edge?
