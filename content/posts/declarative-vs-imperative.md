@@ -1,5 +1,5 @@
 ---
-title: "How Declarative UI is Changing the Game for Developers"
+title: "How Declarative UI is Reshaping the Developer's Workflow"
 draft: false
 date: 2024-12-23T08:29:36.751Z
 description: "Discover how declarative UI frameworks like Jetpack Compose are reshaping the way developers build user interfaces. Explore the shift from imperative programming to declarative design and the role of functional programming in modern app development."
