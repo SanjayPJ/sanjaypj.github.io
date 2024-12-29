@@ -1,5 +1,5 @@
 ---
-title: "The Evolution of Motorcycle Manufacturing: From Classic Charm to Modern Precision"
+title: "A Comparative Study Between the Classic 350, Speed 400, and Duke 390"
 draft: false
 date: 2024-11-13T17:20:30.293Z
 description: "Explore the fascinating world of motorcycle manufacturing. From the traditional craftsmanship behind the Royal Enfield Classic 350 to the high-tech precision of the KTM Duke 390 and Triumph Speed 400. Learn how automation, robotics, and advanced materials are shaping the future of bike production."
