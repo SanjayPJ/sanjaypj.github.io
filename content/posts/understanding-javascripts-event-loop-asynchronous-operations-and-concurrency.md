@@ -4,7 +4,6 @@ draft: false
 date: 2024-12-28T10:36:53.429Z
 description: "This post delves into the core concepts of JavaScript's event loop, asynchronous operations, and concurrency, explaining how JavaScript handles non-blocking operations and executes multiple tasks efficiently. Learn the intricacies of JavaScript's single-threaded nature and how it manages complex operations with real-world examples."
 categories:
-  - Tech
   - JavaScript
 tags:
   - JavaScript

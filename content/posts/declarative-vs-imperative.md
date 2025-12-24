@@ -1,22 +1,17 @@
 ---
-title: "How Declarative UI is Reshaping the Developer's Workflow"
+title: "The Impact of Declarative UI on Modern Development Practices"
 draft: false
 date: 2024-12-23T08:29:36.751Z
 description: "Discover how declarative UI frameworks like Jetpack Compose are reshaping the way developers build user interfaces. Explore the shift from imperative programming to declarative design and the role of functional programming in modern app development."
 categories:
-  - Programming
-  - UI Design
-  - Android Development
-  - Kotlin
+  - Android
 tags:
   - Declarative UI
-  - Imperative UI
   - Jetpack Compose
   - Kotlin
   - Functional Programming
   - UI Development
-  - Android Studio
-  - App Design
+  - Mobile App Development
 ---
 
 The other day, nostalgia hit me hard. I found myself diving back into Android development after what felt like ages. Back in my day (wow, that makes me sound old and I am not that old), it was all Java and XML files - the classic Android combo that every developer knew and... well, dealt with.

@@ -4,19 +4,13 @@ draft: false
 date: 2024-12-27T19:55:29.180Z
 description: "Dive deep into the inner workings of variable management in programming. Understand how compilers, stack frames, heap allocation, and registers play a key role in storing and accessing variables. Explore how symbol tables help during compile-time, and how closures allow functions to remember their environment in runtime execution."
 categories:
-  - Programming
-  - Compilers
-  - Memory Management
-  - Software Development
+  - Low-level
 tags:
   - Variable Management
-  - Stack Frames
-  - Heap Allocation
-  - Symbol Tables
   - Closures
   - Runtime Mechanics
   - Memory Management
-  - Function Call Management
+  - Function Call
   - Compiler Techniques
 ---
 
