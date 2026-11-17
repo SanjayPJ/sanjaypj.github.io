@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanjay PJ</title>
+    <style>
+      :root {
+        --bg: #f5f3ee;
+        --text: #171717;
+        --muted: #66615a;
+        --accent: #d8ff3e;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Georgia, "Times New Roman", serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 48px 24px;
+      }
+
+      main {
+        width: min(900px, 100%);
+      }
+
+      .intro {
+        display: flex;
+        align-items: flex-start;
+        gap: 42px;
+        margin-bottom: 72px;
+      }
+
+      .photo {
+        width: 150px;
+        height: 150px;
+        flex: 0 0 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        filter: grayscale(100%);
+        background: #ddd8cf;
+      }
+
+      .intro-line {
+        margin: 0 0 8px;
+        font-size: 1rem;
+        line-height: 1.2;
+        color: var(--muted);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .hello {
+        margin: 0;
+        font-size: clamp(2.8rem, 7vw, 5.8rem);
+        line-height: 0.95;
+        letter-spacing: -0.055em;
+        font-weight: 500;
+      }
+
+      .body {
+        max-width: 760px;
+      }
+
+      p {
+        font-size: clamp(1.2rem, 2.2vw, 1.55rem);
+        line-height: 1.55;
+        margin: 0 0 30px;
+      }
+
+      .closing {
+        margin-top: 30px;
+      }
+
+      @media (max-width: 650px) {
+        body {
+          padding: 32px 20px;
+          align-items: flex-start;
+        }
+
+        .intro {
+          flex-direction: column;
+          gap: 28px;
+          margin-bottom: 52px;
+        }
+
+        .photo {
+          width: 115px;
+          height: 115px;
+          flex-basis: 115px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="intro">
+        <!-- Put your photo next to this HTML file and name it "sanjay.jpg" -->
+        <img class="photo" src="image.jpg" alt="Sanjay PJ" />
+
+        <div>
+          <p class="intro-line">Hi I am</p>
+          <h1 class="hello">Sanjay PJ</h1>
+        </div>
+      </section>
+
+      <section class="body">
+        <p>I am a software engineer I guess. I work at a fin-tech company.</p>
+
+        <p>
+          I don’t have a favourite tech stack or progressbars or anything, I
+          work with any tech that I can keep my hands on.
+        </p>
+
+        <p>
+          I like to build things for the fun of building them from childhood.
+          Used to have these modified electronic toys as a kid. Rechargeable
+          remote control car with a plug attached to it. You got the gist.
+        </p>
+
+        <p class="closing">So that's it. I wanna leave it right there.</p>
+      </section>
+    </main>
+  </body>
+</html>
